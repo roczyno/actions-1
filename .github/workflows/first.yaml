@@ -11,6 +11,7 @@ jobs:
 
       - name: list files
         run: ls -la
-
+      - name: print working directory
+        run: pwd
       - name: read files
         run: cat README.md
